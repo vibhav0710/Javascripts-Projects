@@ -1,0 +1,78 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #1b244a;
+  margin: 75px auto 0px;
+  width: 500px;
+  height: 300px;
+  font-size: 30px;
+}
+
+h3{
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.board{
+  background-color: black;
+  color: #f94f6d;  
+  margin: 20px;
+  height: 100px;
+  width: 120px;
+}
+
+.p{
+  font-size: 60px;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  padding-top: 20px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-around;
+}
+
+.inc-btn{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #1b244a;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#reset{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1b244a;
+  color: #ffffff;
+  text-align: center;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 10px;
+  margin-top: 0px;
+}
+
+#reset-btn{
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #1b244a;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+}
