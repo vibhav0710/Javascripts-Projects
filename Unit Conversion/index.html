@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Unit Conveersion</title>
+</head>
+<body>
+  <div class="hero">
+    <h1>Metric/Imperial Unit Conversion</h1>
+    <input type="text" id="value" value="1">
+    <button id="conv-btn" onclick="render()">Convert</button>
+  </div>
+
+  <div class="container">
+    <div class="unit">
+      <h2>Length (Meter/Feet)</h2>
+      <p id="lenUnit">1 meters = 3.281 feet | 1 feet = 0.305 meters</p>
+    </div>
+    <div class="unit">
+      <h2>Volume (Liters/Gallons)</h2>
+      <p id="volUnit">1 liters = 0.264 gallons | 1 gallons = 3.788 liters</p>
+    </div>
+    <div class="unit">
+      <h2>Mass (Kilograms/Pounds)</h2>
+      <p id="massUnit">1 kilos = 2.204 pounds | 1 pounds = 0.454 kilos</p>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

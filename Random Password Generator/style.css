@@ -32,6 +32,20 @@ body{
   font-size: 15px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#input{
+  width: 150px;
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
 #passGen {
   width: 150px;
   text-align: center;
@@ -40,6 +54,7 @@ body{
   color: #ffffff;
   background-color: #10b981;
   border-radius: 6px;
+  margin-left: 20px;
 }
 
 hr{
